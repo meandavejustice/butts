@@ -1,14 +1,15 @@
 var fs = require('fs');
-var ls = require('ls-stream')
+var path = require('path');
+var ls = require('ls-stream');
 
 var bootys = [];
 
 function genButtLoad(success) {
-  ls('./pants')
+  ls(path.resolve(__dirname + '/pants')
     .on('data', function(dat) {
       bootys.push(dat.path);
     }).on('end', function() {
-      success()
+      success();
     });
 }
 
@@ -23,7 +24,7 @@ module.exports = function(cb) {
         cb(azz);
       });
   });
-}
+};
 
 module.exports.buttStream = function(cb) {
   if (!cb) {
@@ -35,7 +36,7 @@ module.exports.buttStream = function(cb) {
       fs.createReadStream(bootys[Math.floor(Math.random() * bootys.length)])
         .on('data', function(azz) {
           cb(azz);
-        })
-    })
-  })
+        });
+    });
+  });
 };
