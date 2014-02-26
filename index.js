@@ -5,7 +5,7 @@ var ls = require('ls-stream');
 var bootys = [];
 
 function genButtLoad(success) {
-  ls(path.resolve(__dirname + '/pants')
+  ls(path.resolve(__dirname + '/pants'))
     .on('data', function(dat) {
       bootys.push(dat.path);
     }).on('end', function() {
