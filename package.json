@@ -1,0 +1,23 @@
+{
+  "name": "butts",
+  "version": "0.0.0",
+  "description": "(_|_)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "butts": "./cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/meandavejustice/butts/issues"
+  },
+  "keywords": [
+    "butts"
+  ],
+  "author": "meandave",
+  "license": "MIT",
+  "dependencies": {
+    "ls-stream": "^1.0.0"
+  }
+}
