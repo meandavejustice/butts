@@ -1,6 +1,6 @@
 {
   "name": "butts",
-  "version": "0.0.4",
+  "version": "1.0",
   "description": "(_|_)",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,17 @@
   "bugs": {
     "url": "https://github.com/meandavejustice/butts/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meandavejustice/butts.git"
+  },
   "keywords": [
-    "butts"
+    "butts",
+    "behind",
+    "cli",
+    "api",
+    "booty",
+    "bum"
   ],
   "author": "meandave",
   "license": "MIT",

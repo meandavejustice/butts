@@ -1,5 +1,7 @@
 ## Usage
 
+[![NPM](https://nodei.co/npm/butts.png?downloads=true)](https://www.npmjs.org/package/butts)
+
 ``` javaScript
 var butts = require('butts');
 
