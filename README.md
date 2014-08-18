@@ -2,6 +2,24 @@
 
 [![NPM](https://nodei.co/npm/butts.png?downloads=true)](https://www.npmjs.org/package/butts)
 
+```
+         ___________ 
+        /          /| 
+       /__________/ | 
+      |.---------.| |
+      ||~$butts  || | 
+      ||   (_!_) || |             
+      ||         || |               
+      |'---------'|/                
+       `)__ _____(']                
+       [=== -- o ]/--.          
+     __'---------'__  \ 
+    [::::::::::: :::]  ) 
+     `""'"""""'""""` /T\ 
+                     \_/ 
+
+```
+
 ``` javaScript
 var butts = require('butts');
 
@@ -20,7 +38,6 @@ or if installed globally just:
 (when piped to lolcat)
 
 ![](http://i.imgur.com/z4DoqpS.png)
-
 
 much love 2 [https://github.com/gf3/butts](https://github.com/gf3/butts) & #butts
 
